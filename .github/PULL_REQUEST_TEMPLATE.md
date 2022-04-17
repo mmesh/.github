@@ -50,16 +50,36 @@ Issue URL: ...
 
 ## Checklist
 
-_You can also fill these out after creating the PR. If you're unsure about any of them, don't hesitate to ask. We're here to help! This is simply a reminder of what we are going to look for before merging your code._
+<!-- _You can also fill these out after creating the PR. If you're unsure about any of them, don't hesitate to ask. We're here to help! This is simply a reminder of what we are going to look for before merging your code._ -->
 
 Please check if your PR fulfills the following requirements:
 - [ ] I have read the [CONTRIBUTING](https://github.com/mmesh/mmesh/blob/master/CONTRIBUTING.md) doc
 - [ ] I have signed [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by adding a `Signed-off-by` line to commit messages
+- [ ] I have performed a self-review of my own code and corrected any misspellings
+- [ ] My code follows the style guidelines of this project
+- [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] Lint, build and unit tests pass locally with my changes (if appropriate)
+- [ ] My changes generate no new warnings
 - [ ] I have added tests that prove my fix is effective or that my feature works (if appropriate)
-- [ ] I have added necessary documentation (if appropriate)
+- [ ] My changes requires a change to the documentation
+- [ ] I have added / updated documentation accordingly (if appropriate)
 - [ ] Any dependent changes have been merged and published in downstream modules
 
+## Tests
+
+<!--  Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration. -->
+
+- [ ] Test A
+- [ ] Test B
+- [ ] ...
+
+**Test Configuration**:
+
+* Operating System:
+* Hardware:
+* Toolchain:
+* SDK:
+ 
 ## Further Comments
 
 <!-- If this is a relatively large or complex change, kick off the discussion by explaining why you chose the solution you did and what alternatives you considered, etc... -->
