@@ -2,6 +2,11 @@
 
 <!-- Please refer to our contributing documentation for any questions on submitting a pull request, or let us know here if you need any help: https://github.com/mmesh/mmesh/blob/master/CONTRIBUTING.md -->
 
+## Requirements
+
+* Fill out the template below. Any pull request that does not include enough information to be reviewed in a timely manner might be closed at the maintainers' discretion.
+* After you create the pull request, all status checks must be pass before a maintainer reviews your contribution. For more details, please see <https://github.com/mmesh/.github/blob/master/CONTRIBUTING.md#pull-requests>.
+
 ## Related Issue
 
 <!-- This project only accepts Pull Requests related to open issues. -->
@@ -68,7 +73,7 @@ Please check the type of change your PR introduces:
 ## Tests
 
 <!-- Please describe the tests that you ran to verify your changes. -->
-<!-- Please provide instructions so we can reproduce and also list any relevant details for your test configuration. -->
+<!-- Provide instructions so we can reproduce and also list any relevant details for your test configuration. -->
 
 - [ ] Test A
 - [ ] Test B
@@ -121,7 +126,6 @@ Please check if your PR fulfills the following requirements:
 - [ ] Any dependent changes have been merged and published in downstream modules
 - [ ] I have done the changes in a separate branch
 - [ ] The branch has a descriptive name that start with either the `fix/` or `feature/` prefixes
-- [ ] I have only one commit (if not, squash them into one commit)
 - [ ] The commit message follows our guidelines
 - [ ] This PR is not a duplicate
 - [ ] This PR will close an open issue
