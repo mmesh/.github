@@ -97,7 +97,7 @@ Please, **NEVER report security-related issues, vulnerabilities or bugs includin
 If you would like to submit the information encrypted our PGP key is:
 
 ```console
-
+[TBC]
 ```
 
 ### Other Bugs
@@ -167,7 +167,7 @@ Please follow these recommendations to have your contribution considered by the 
 1. Search GitHub repository for an open or closed PR that relates to your submission. You don't want to duplicate effort.
 2. Follow all instructions in [the template](https://github.com/mmesh/.github/blob/HEAD/.github/PULL_REQUEST_TEMPLATE.md)
 3. Follow the style guides and be consistent throughout the source code.
-4. Commit your changes using a descriptive commit message that follows our [commit message conventions](#commit-messages-guidelines). Adherence to these conventions is necessary because release notes are automatically generated from these messages.
+4. Commit your changes using a descriptive commit message that follows our [commit message conventions](#commit-message-guidelines). Adherence to these conventions is necessary because release notes are automatically generated from these messages.
 5. After you submit your Pull Request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing
    <details><summary>What if the status checks are failing?</summary>If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.</details>
 
@@ -391,7 +391,7 @@ The **header** is mandatory and the **scope** of the header is optional.
 
 Any line of the commit message cannot be longer 72 characters (except long URLs in body or footer)! This allows the message to be easier to read on GitHub as well as in various git tools.
 
-The footer should contain a [closing reference to an issue](https://help.github.com/articles/closing-issues-via-commit-messages/), if any.
+The footer should contain a [closing reference to an issue](https://github.blog/2013-01-22-closing-issues-via-commit-messages/), if any.
 
 Samples:
 
