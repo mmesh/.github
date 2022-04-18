@@ -48,6 +48,9 @@ Read the following sections to learn how to get involved in the mmesh OSS commun
     - [Subject](#subject)
     - [Body](#body)
     - [Footer](#footer)
+  - [Issue and Pull Request Labeling Convention](#issue-and-pull-request-labeling-convention)
+    - [Labels](#labels)
+    - [Other Notes](#other-notes)
   - [Developer Certificate of Origin (DCO)](#developer-certificate-of-origin-dco)
     - [GPG Signature](#gpg-signature)
   - [Community](#community)
@@ -458,6 +461,49 @@ The footer should contain any information about **Breaking Changes** and is also
 
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
 
+## Issue and Pull Request Labeling Convention
+
+Our labeling convention is based on the set of [Standardized Labels for GitHub Issues](https://github.com/wagenet/StandardIssueLabels/blob/master/README.md).
+
+The purpose of these labels is to make it easy to find things that are actually important to us. Bugs and regressions take high priorities. Only certain people are qualified to review features and documentation. Cleanup stuff is important but not high priority usually. We also want to know who/what any given ticket is blocking on.
+
+This section lists the labels we use to help us track and manage issues and pull requests. Most labels are used across all mmesh OSS repositories.
+
+[GitHub search](https://help.github.com/articles/searching-issues/) makes it easy to use labels for finding groups of issues or pull requests you're interested in. We encourage you to read about [other search filters](https://help.github.com/articles/searching-issues/) which will help you write more focused queries.
+
+The labels are loosely grouped by their purpose, but it's not required that every issue has a label from every group or that an issue can't have more than one label from the same group.
+
+Please open an issue on `mmesh/mmesh` if you have suggestions for new labels, and if you notice some labels are missing on some repositories, then please open an issue on that repository.
+
+### Labels
+
+- **Issue Types**
+  - **Bug** - Anything that is broken
+  - **Regression** - A bug that did not exist in previous versions and isn't a new feature (applied in tandem with Bug)
+  - **Feature** - Anything that involves API changes, should generally only be for PRs or bug reports on in-progress features.
+  - **Performance** - A performance related issue. We could track this as a bug, but usually these would have slightly lower priority than standard bugs.
+  - **Cleanup** - Not a bug, not a feature, just code cleanup.
+  - **Documentation** - Self-explanatory.
+- **Blockers**
+  - **Needs Bug Verification** - A bug report, needs verification that it's actually a bug.
+  - **Needs Reproduction** - Needs a test case or other reproduction of the issue.
+  - **Has Reproduction** - Indicates a test case exists and is up-to-date.
+  - **Ready for PR** - A well defined bug, needs someone to PR a fix.
+  - **PR Pending** - A well defined bug, with a PR pending to fix.
+  - **Needs Code Review** - A PR that needs the code to be verified by someone.
+  - **Needs Submitter Response** - Anything that is blocking on the submitter.
+  - **Needs Team Discussion** - Cannot progress until the core team has discussed further.
+- **Categories** - These change per-project, may want to prefix, e.g. "C: HTMLBars". The big thing here is to keep proliferation low. If it gets too high, we might just want to change the issue title instead, e.g. prefix with "[HTMLBars]".
+  - **HTMLBars**
+  - **Router**
+  - ...
+- **Miscellaneous** - These are per project and might be useful for further organization but should be kept to a minimum as well.
+  - **good first issue** - What it says on the tin. This helps new people find stuff to work on, because [GitHub actively promotes it](https://help.github.com/articles/helping-new-contributors-find-your-project-with-labels/) and [initializes new repositories with that label](https://help.github.com/articles/about-labels/#using-default-labels).
+
+### Other Notes
+
+- All PR Titles for in progress features should be prefixed with `[FEATURE name]`.
+
 ## Developer Certificate of Origin (DCO)
 
 The [Developer Certificate of Origin (DCO)](https://developercertificate.org/) is a lightweight way for contributors to certify that they wrote or otherwise have the right to submit the code they are contributing to the project.
@@ -509,6 +555,8 @@ This document was inspired by the work of:
 - [Open Source Guides](https://opensource.guide/)
 - [Contributor Covenant](https://www.contributor-covenant.org/)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Standard Issue Labels](https://github.com/wagenet/StandardIssueLabels/blob/master/README.md)
 - [Angular Contributing Guide](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md)
 - [Node.js Contributing Guide](https://github.com/nodejs/node/blob/master/CONTRIBUTING.md)
 - [Elasticsearch Contributing Guide](https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md).
+- [Atom Contributing Guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md).
