@@ -6,7 +6,7 @@ There are many ways to contribute, from writing tutorials or blog posts, improvi
 
 Read the following sections to learn how to get involved in the mmesh OSS community and how to get support.
 
-**Table of Contents**
+**TABLE OF CONTENTS**
 
 - [Contributing](#contributing)
   - [Prerequisites](#prerequisites)
@@ -108,10 +108,10 @@ If you think you have found a bug in a mmesh OSS project, first make sure that y
 - Try to check there is not already an issue or pull request similar to yours.
 - Open an issue which describes the bug, including as much details as possible to help other people reproduce the problem and understand how things should work:
 
-  * Your operating system name and version.
-  * Any details about your local setup that might be helpful in troubleshooting.
-  * If you can, provide detailed steps to reproduce the bug.
-  * If you don't have steps to reproduce the bug, just note your observations in as much detail as you can.
+  - Your operating system name and version.
+  - Any details about your local setup that might be helpful in troubleshooting.
+  - If you can, provide detailed steps to reproduce the bug.
+  - If you don't have steps to reproduce the bug, just note your observations in as much detail as you can.
 
 Questions to start a [discussion](https://github.com/orgs/mmesh/discussions) about the issue are welcome.
 
