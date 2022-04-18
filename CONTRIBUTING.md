@@ -463,7 +463,7 @@ The footer should contain any information about **Breaking Changes** and is also
 
 ## Issue and Pull Request Labeling Convention
 
-Our labeling convention is based on the set of [Standardized Labels for GitHub Issues](https://github.com/wagenet/StandardIssueLabels/blob/master/README.md).
+Our labeling convention is based on [this Set of Standardized Labels for GitHub Issues](https://github.com/wagenet/StandardIssueLabels/blob/master/README.md).
 
 The purpose of these labels is to make it easy to find things that are actually important to us. Bugs and regressions take high priorities. Only certain people are qualified to review features and documentation. Cleanup stuff is important but not high priority usually. We also want to know who/what any given ticket is blocking on.
 
