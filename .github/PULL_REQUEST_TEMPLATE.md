@@ -1,18 +1,21 @@
-<!-- Thanks a lot for contributing! --> 
+<!--
 
-<!-- Please refer to our contributing documentation for any questions on submitting a pull request, or let us know here if you need any help: https://github.com/mmesh/mmesh/blob/master/CONTRIBUTING.md -->
+ Thanks a lot for contributing!
+
+Please refer to our contributing documentation for any questions on submitting a pull request, or let us know here if you need any help: https://github.com/mmesh/.github/blob/HEAD/CONTRIBUTING.md
 
 ## Requirements
 
-* Fill out the template below. Any pull request that does not include enough information to be reviewed in a timely manner might be closed at the maintainers' discretion.
-* After you create the pull request, all status checks must be pass before a maintainer reviews your contribution. For more details, please see <https://github.com/mmesh/.github/blob/master/CONTRIBUTING.md#pull-requests>.
+- Fill out the template below. Any pull request that does not include enough information to be reviewed in a timely manner might be closed at the maintainers' discretion.
+- After you create the pull request, all status checks must be pass before a maintainer reviews your contribution. For more details, please see our [contributing guidelines](https://github.com/mmesh/.github/blob/HEAD/CONTRIBUTING.md#pull-requests).
 
+-->
 ## Related Issue
 
 <!-- This project only accepts Pull Requests related to open issues. -->
 <!-- If suggesting a new feature or change, please discuss it in an issue first. -->
 <!-- If fixing a bug, there should be an issue describing it with steps to reproduce. -->
-<!-- Please include a link to the issue. --> 
+<!-- Please include a link to the issue. -->
 
 Issue URL: ...
 
@@ -22,53 +25,54 @@ Issue URL: ...
 
 <!-- Please describe why this change is required or what problem it will solve. -->
 
-* ...
-* ...
+- ...
+- ...
 
 ### Current Behavior
 
 <!-- Please describe the current behavior that you are modifying. -->
 
-* ...
-* ...
+- ...
+- ...
 
 ### New Behavior
 
 <!-- Please describe the behavior or changes that are being added by this PR. -->
 
-* ...
-* ...
+- ...
+- ...
 
 ### Proposed Changes
 
 <!-- Please describe the big picture of your changes here to communicate to the maintainers why we should accept this Pull Request. -->
 
-* ...
-* ...
+- ...
+- ...
 
 ## Pull Request Type
 
-<!-- Please do not submit updates to dependencies unless it fixes an issue. --> 
-<!-- Please try to limit your pull request to one type, submit multiple pull requests if needed. --> 
+<!-- Please do not submit updates to dependencies unless it fixes an issue. -->
+<!-- Please try to limit your pull request to one type, submit multiple pull requests if needed. -->
 
 Please check the type of change your PR introduces:
+
 - [ ] Bugfix (change which fixes an issue)
 - [ ] New feature (change which adds functionality)
 - [ ] Code style update (formatting, renaming)
 - [ ] Refactoring (no functional changes, no api changes)
 - [ ] Build related changes
 - [ ] Documentation update
-- [ ] Other (please describe): 
+- [ ] Other (please describe):
 
 ## Impact
 
 - [ ] Non-breaking change
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected) 
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 
 <!-- If this PR introduces a breaking change, please describe the impact and migration path for existing applications below. -->
 
-* ...
-* ...
+- ...
+- ...
 
 ## Tests
 
@@ -81,12 +85,12 @@ Please check the type of change your PR introduces:
 
 **Test Configuration**:
 
-* Operating System:
-* Hardware:
-* Target Platform:
-* Toolchain:
-* SDK:
-* ...
+- Operating System: ...
+- Hardware: ...
+- Target Platform: ...
+- Toolchain: ...
+- SDK: ...
+- ...
 
 ## Relevant Output
 
@@ -113,7 +117,8 @@ Please check the type of change your PR introduces:
 <!-- This is simply a reminder of what we are going to look for before merging your code. -->
 
 Please check if your PR fulfills the following requirements:
-- [ ] I have read and followed the guidelines in the [CONTRIBUTING](https://github.com/mmesh/mmesh/blob/master/CONTRIBUTING.md) document.
+
+- [ ] I have read and followed the guidelines in the [CONTRIBUTING](https://github.com/mmesh/.github/blob/HEAD/CONTRIBUTING.md) document.
 - [ ] I have signed [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by adding a `Signed-off-by` line to commit messages
 - [ ] I have performed a self-review of my own code and corrected any misspellings
 - [ ] My code follows the style guidelines of this project

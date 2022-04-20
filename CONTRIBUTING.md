@@ -53,6 +53,7 @@ Read the following sections to learn how to get involved in the mmesh OSS commun
     - [Other Notes](#other-notes)
   - [Developer Certificate of Origin (DCO)](#developer-certificate-of-origin-dco)
     - [GPG Signature](#gpg-signature)
+    - [Additional Notes](#additional-notes)
   - [Community](#community)
   - [Attribution](#attribution)
 
@@ -432,7 +433,7 @@ we use the git commit messages to **generate the change logs**.
 Each commit message consists of a **header**, a **body** and a **footer**.  The header has a special
 format that includes a **type**, a **scope** and a **subject**:
 
-```
+```text
 <type>(<scope>): <subject>
 <BLANK LINE>
 <body>
@@ -556,9 +557,9 @@ Please open an issue on `mmesh/mmesh` if you have suggestions for new labels, an
 
 ## Developer Certificate of Origin (DCO)
 
-The [Developer Certificate of Origin (DCO)](https://developercertificate.org/) is a lightweight way for contributors to certify that they wrote or otherwise have the right to submit the code they are contributing to the project.
+The project maintainer for this Project will only accept contributions using the Developer’s Certificate of Origin 1.1 located at <https://developercertificate.org> (“DCO”). The DCO is a legally binding statement asserting that you are the creator of your contribution, or that you otherwise have the authority to distribute the contribution, and that you are intentionally making the contribution available under the license associated with the Project ("License").
 
-Contributors sign-off that they adhere to these requirements by adding a `Signed-off-by` line to commit messages.
+You can agree to the DCO in your contribution by using a `Signed-off-by` line at the end of your commit message. You should only submit a contribution if you are willing to agree to the DCO terms. If you are willing, just add a line to the end of every git commit message:
 
 ```shell
 doc: update README
@@ -587,6 +588,12 @@ We use the GitHub App [DCO](https://github.com/apps/dco) to enforce the [Develop
 While the DCO sign-off asserts a contributor's right to make their contribution, the GPG signature is required to cryptographically offer a stronger assurance of the contributor's identity.
 
 [More extensive documentation](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification) of this subject is available from GitHub.
+
+### Additional Notes
+
+Pseudonymous or anonymous contributions are permissible, but you must be reachable at the email provided in the Signed-off-by line.
+
+We encourage contributors to modify CONTRIBUTORS.md to add your name and copyright date to the list of people who have contributed to the Project.
 
 ## Community
 
