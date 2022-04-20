@@ -8,15 +8,17 @@ Open source projects from [mmesh.io](https://mmesh.io)
 
 ### Latest Releases
 
-{{- range rss "https://github.com/mmesh/mmesh-cli/releases.atom" 1 }}
-- [mmesh-cli](https://github.com/mmesh/mmesh-cli) [{{ .Title }}]({{ .URL }}) (_released {{ humanize .PublishedAt }}_)
+{{- range rss "https://github.com/mmesh/m-cli/releases.atom" 1 }}
+- [mmesh-cli](https://github.com/mmesh/m-cli) [{{ .Title }}]({{ .URL }}) (_released {{ humanize .PublishedAt }}_)
 {{- end }}
-{{- range rss "https://github.com/mmesh/mmesh-node/releases.atom" 1 }}
-- [mmesh-node](https://github.com/mmesh/mmesh-node) [{{ .Title }}]({{ .URL }}) (_released {{ humanize .PublishedAt }}_)
+{{- range rss "https://github.com/mmesh/m-node/releases.atom" 1 }}
+- [mmesh-node](https://github.com/mmesh/m-node) [{{ .Title }}]({{ .URL }}) (_released {{ humanize .PublishedAt }}_)
 {{- end }}
 
+<!--
 ### Latest Posts
 
 {{- range rss "https://blog.mmesh.dev/feed" 3 }}
 - [{{ .Title }}]({{ .URL }}) ({{ humanize .PublishedAt }})
 {{- end }}
+-->

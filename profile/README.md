@@ -8,5 +8,5 @@ Open source projects from [mmesh.io](https://mmesh.io)
 
 ### Latest Releases
 
-- [mmesh-cli](https://github.com/mmesh/mmesh-cli)
-- [mmesh-node](https://github.com/mmesh/mmesh-node)
+- [mmesh-cli](https://github.com/mmesh/m-cli)
+- [mmesh-node](https://github.com/mmesh/m-node)
