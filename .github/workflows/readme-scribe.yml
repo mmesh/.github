@@ -8,6 +8,8 @@ on:
 jobs:
   markscribe:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@master
       - uses: muesli/readme-scribe@master
@@ -18,10 +20,11 @@ jobs:
           writeTo: "profile/README.md"
       - uses: stefanzweifel/git-auto-commit-action@v4
         env:
-          GITHUB_TOKEN: ${{ secrets.MMESHBOT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           commit_message: "docs: update generated README"
           branch: master
+          commit_options: "--signoff"
           commit_user_name: readme-scribe 🤖
           commit_user_email: actions@github.com
           commit_author: readme-scribe 🤖 <actions@github.com>
