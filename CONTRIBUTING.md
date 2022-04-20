@@ -277,7 +277,7 @@ git checkout -b <topic-branch-name> -t upstream/HEAD
 
 It is a best practice to keep your changes as logically grouped as possible within individual commits. There is no limit to the number of commits any single pull request may have, and many contributors find it easier to review changes that are split across multiple commits.
 
-A `Signed-off-by` trailer must be added at the end of the commit message. This way you, the commiter, certify that you have the rights to submit the work under the project’s license and agree to the [Developer Certificate of Origin (DCO)](#developer-certificate-of-origin-dco).
+A `Signed-off-by` trailer must be added at the end of the commit message. This way you, the committer, certify that you have the rights to submit the work under the project’s license and agree to the [Developer Certificate of Origin (DCO)](#developer-certificate-of-origin-dco).
 
 Also note that commits messages must follow our [commit message guidelines](#commit-message-guidelines).
 
@@ -599,11 +599,11 @@ We encourage contributors to modify CONTRIBUTORS.md to add your name and copyrig
 
 Have questions, need support and/or just want to talk?
 
-Get in touch with the mmesh OSS community!
+Get in touch with the mmesh community!
 
 [![GitHub Discussions](https://img.shields.io/badge/GitHub_Discussions-181717?style=flat&logo=github&logoColor=white)](https://github.com/orgs/mmesh/discussions)
-[![Discord](https://img.shields.io/badge/Join_Us_on_Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://mmesh.io/discord)
-[![Twitter](https://img.shields.io/badge/Follow_Us_on_twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/mmesh_io)
+[![Discord](https://img.shields.io/badge/Join_us_on_Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://mmesh.io/discord)
+[![Twitter](https://img.shields.io/badge/Follow_on_twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/mmesh_io)
 
 ## Attribution
 
