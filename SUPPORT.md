@@ -17,8 +17,8 @@ See our [contributing guidelines](https://github.com/mmesh/.github/blob/HEAD/CON
 
 ## Community
 
-Get in touch with the mmesh OSS community!
+Get in touch with the mmesh community!
 
+[![Discord](https://img.shields.io/badge/Join_us_on_Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://mmesh.io/discord)
 [![GitHub Discussions](https://img.shields.io/badge/GitHub_Discussions-181717?style=flat&logo=github&logoColor=white)](https://github.com/orgs/mmesh/discussions)
-[![Discord](https://img.shields.io/badge/Join_Us_on_Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://mmesh.io/discord)
-[![Twitter](https://img.shields.io/badge/Follow_Us_on_twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/mmesh_io)
+[![Twitter](https://img.shields.io/badge/Follow_on_Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/mmesh_io)
