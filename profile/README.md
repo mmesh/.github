@@ -1,4 +1,4 @@
-![mmesh](https://github.com/mmesh/assets/blob/HEAD/images/logo/mmesh_logo_v4_240x40_darkgrey.png)
+![mmesh](https://github.com/mmesh/assets/blob/HEAD/images/logo/mmesh_logo_v5_180x30.png)
 
 Open source projects from [mmesh.io](https://mmesh.io)
 
